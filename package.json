@@ -1,0 +1,25 @@
+{
+  "name": "siamese-searchengine",
+  "version": "1.0.0",
+  "description": "Sentence Similarity with Siamese with SearchEngine",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samurais/Siamese-SearchEngine.git"
+  },
+  "keywords": [
+    "elasticsearch"
+  ],
+  "author": "hai liang wang <hailiang.hl.wang@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Samurais/Siamese-SearchEngine/issues"
+  },
+  "homepage": "https://github.com/Samurais/Siamese-SearchEngine#readme",
+  "dependencies": {
+    "elasticsearch": "^12.1.3"
+  }
+}
