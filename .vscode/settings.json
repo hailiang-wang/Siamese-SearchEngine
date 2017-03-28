@@ -1,0 +1,31 @@
+{
+    "editor.rulers": [
+        80,
+        100
+    ],
+    "files.exclude": {
+        "**/.github": true,
+        "**/dist": true,
+        "**/node_modules/": true,
+        "**/yarn.lock": true,
+        "**/.yarn/": true,
+        "**/.yarn-cache": true,
+        "**/.yarn-config": true,
+        "**/.pki": true,
+        "**/sphinx_facts/": true,
+        ".gitignore": true,
+        ".vscode": true,
+        ".gitignore": true,
+        ".vscode": true,
+        ".yarnclean": true,
+        "**/logs/": true,
+        "**/*.swp": true,
+        "data.json": true,
+        "**/tmp/": true,
+        "**/*.pyc": true,
+        "**/__pycache__": true
+    },
+    "typescript.check.workspaceVersion": false,
+    "javascript.validate.enable": false,
+    "standard.run": "onSave"
+}
