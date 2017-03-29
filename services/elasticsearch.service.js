@@ -2,14 +2,14 @@
  * ELK Suite Service
  */
 const config = require('../config/environment'),
-  logger = require('./logging').getLogger('elasticsearch.service'),
+  logger = require('./logging.service').getLogger('elasticsearch.service'),
   elasticsearch = require('elasticsearch'),
   Q = require('q'),
   _ = require('lodash')
 
 const client = new elasticsearch.Client({
-  host: config.elk.host,
-  httpAuth: config.elk.httpAuth,
+  host: config.elasticsearch.host,
+  httpAuth: config.elasticsearch.httpAuth,
   log: 'error',
   apiVersion: '5.0',
   maxRetries: 3,
